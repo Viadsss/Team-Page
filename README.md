@@ -1,7 +1,8 @@
 # My Team-Page Sample Layout
 
 ## Desktop
-![Screen Shot 2023-02-25 at 21 31 14](https://user-images.githubusercontent.com/113358424/221359925-46c42a8c-fb04-4600-9a3d-6474c9fe879d.png)
+![image](https://user-images.githubusercontent.com/113358424/221360192-48d69e28-3a2e-4863-9360-8950a31264ad.png)
+
 
 ## Mobile
-![Screen Shot 2023-02-25 at 21 30 23](https://user-images.githubusercontent.com/113358424/221359936-d8d0a4a9-f5d0-4fd1-8767-a122913981fb.png)
+![image](https://user-images.githubusercontent.com/113358424/221360227-540f6b6a-eccd-45a4-b286-12980fda2f56.png)
