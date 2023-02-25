@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Poppins', sans-serif;
+  font-family: 'PT Serif', serif; */
+}
+
+.page {
+  max-width: 100%;
+  padding: 5% 10% 0 10%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 24px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+  padding-bottom: 50px;
+}
+
+.title {
+  font-family: 'PT Serif', serif;
+  font-size: 40px;
+}
+
+.context {
+  font-family: 'Poppins', sans-serif;
+  max-width: 70%;
+}
+
+.main {
+  max-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 100%;
+  gap: 24px;
+}
+
+figure {
+  margin: 0;
+}
+
+figure .img {
+  max-width: 70%;
+  height: auto;
+}
+
+.img-role {
+  display: flex;
+}
+
+.role {
+  max-width: 100%;
+  writing-mode: vertical-rl;
+  padding: 5px;
+  font-family: 'PT Serif', serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+figcaption {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.person-2 {
+  position: relative;
+  top: 80px;
+}
+
+.person-5 {
+  position: relative;
+  top: 120px;
+}
+
+.footer {
+  padding-top: 150px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  color: grey
+}
+
+.username {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@media (max-width: 720px) {
+  .header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: none;
+  }
+
+  .context {
+    max-width: 100%;
+  }
+
+  .main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .person-2, .person-5 {
+    position: relative;
+    top: 0;
+  }
+
+  .person-2, .person-4, .person-6 {
+    position: relative;
+    top: 80px;
+  }
+
+  figcaption {
+    font-size: 12px;
+  }
+
+  .role {
+    font-size: 10px;
+    font-weight: bold;
+  }
+}
